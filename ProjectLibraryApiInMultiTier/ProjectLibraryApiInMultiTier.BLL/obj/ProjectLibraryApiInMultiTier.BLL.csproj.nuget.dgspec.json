@@ -1,0 +1,181 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\STG1257\\Desktop\\projectLibrary.api\\ProjectLibraryApiInMultiTier\\ProjectLibraryApiInMultiTier.BLL\\ProjectLibraryApiInMultiTier.BLL.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\STG1257\\Desktop\\projectLibrary.api\\ProjectLibraryApiInMultiTier\\ProjectLibraryApiInMultiTier.BLL\\ProjectLibraryApiInMultiTier.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\STG1257\\Desktop\\projectLibrary.api\\ProjectLibraryApiInMultiTier\\ProjectLibraryApiInMultiTier.BLL\\ProjectLibraryApiInMultiTier.BLL.csproj",
+        "projectName": "ProjectLibraryApiInMultiTier.BLL",
+        "projectPath": "C:\\Users\\STG1257\\Desktop\\projectLibrary.api\\ProjectLibraryApiInMultiTier\\ProjectLibraryApiInMultiTier.BLL\\ProjectLibraryApiInMultiTier.BLL.csproj",
+        "packagesPath": "C:\\Users\\STG1257\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\STG1257\\Desktop\\projectLibrary.api\\ProjectLibraryApiInMultiTier\\ProjectLibraryApiInMultiTier.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\STG1257\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\STG1257\\Documents\\Nuggets": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\STG1257\\Desktop\\projectLibrary.api\\ProjectLibraryApiInMultiTier\\ProjectLibraryApiInMultiTier.DAL\\ProjectLibraryApiInMultiTier.DAL.csproj": {
+                "projectPath": "C:\\Users\\STG1257\\Desktop\\projectLibrary.api\\ProjectLibraryApiInMultiTier\\ProjectLibraryApiInMultiTier.DAL\\ProjectLibraryApiInMultiTier.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\STG1257\\Desktop\\projectLibrary.api\\ProjectLibraryApiInMultiTier\\ProjectLibraryApiInMultiTier.DAL\\ProjectLibraryApiInMultiTier.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\STG1257\\Desktop\\projectLibrary.api\\ProjectLibraryApiInMultiTier\\ProjectLibraryApiInMultiTier.DAL\\ProjectLibraryApiInMultiTier.DAL.csproj",
+        "projectName": "ProjectLibraryApiInMultiTier.DAL",
+        "projectPath": "C:\\Users\\STG1257\\Desktop\\projectLibrary.api\\ProjectLibraryApiInMultiTier\\ProjectLibraryApiInMultiTier.DAL\\ProjectLibraryApiInMultiTier.DAL.csproj",
+        "packagesPath": "C:\\Users\\STG1257\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\STG1257\\Desktop\\projectLibrary.api\\ProjectLibraryApiInMultiTier\\ProjectLibraryApiInMultiTier.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\STG1257\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\STG1257\\Documents\\Nuggets": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\STG1257\\Desktop\\projectLibrary.api\\ProjectLibraryApiInMultiTier\\Tools.Connections\\Tools.Connections.csproj": {
+                "projectPath": "C:\\Users\\STG1257\\Desktop\\projectLibrary.api\\ProjectLibraryApiInMultiTier\\Tools.Connections\\Tools.Connections.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\STG1257\\Desktop\\projectLibrary.api\\ProjectLibraryApiInMultiTier\\Tools.Connections\\Tools.Connections.csproj": {
+      "version": "1.0.1",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\STG1257\\Desktop\\projectLibrary.api\\ProjectLibraryApiInMultiTier\\Tools.Connections\\Tools.Connections.csproj",
+        "projectName": "Tools.Connections",
+        "projectPath": "C:\\Users\\STG1257\\Desktop\\projectLibrary.api\\ProjectLibraryApiInMultiTier\\Tools.Connections\\Tools.Connections.csproj",
+        "packagesPath": "C:\\Users\\STG1257\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\STG1257\\Desktop\\projectLibrary.api\\ProjectLibraryApiInMultiTier\\Tools.Connections\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\STG1257\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\STG1257\\Documents\\Nuggets": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+C:\Users\STG1257\Desktop\ProjectLibraryInAdo\ProjectLibraryApiInMultiTier\Tools.Connections\bin\Debug\net6.0\Tools.Connections.deps.json
+C:\Users\STG1257\Desktop\ProjectLibraryInAdo\ProjectLibraryApiInMultiTier\Tools.Connections\bin\Debug\net6.0\Tools.Connections.dll
+C:\Users\STG1257\Desktop\ProjectLibraryInAdo\ProjectLibraryApiInMultiTier\Tools.Connections\bin\Debug\net6.0\Tools.Connections.pdb
+C:\Users\STG1257\Desktop\ProjectLibraryInAdo\ProjectLibraryApiInMultiTier\Tools.Connections\obj\Debug\net6.0\Tools.Connections.csproj.AssemblyReference.cache
+C:\Users\STG1257\Desktop\ProjectLibraryInAdo\ProjectLibraryApiInMultiTier\Tools.Connections\obj\Debug\net6.0\Tools.Connections.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\STG1257\Desktop\ProjectLibraryInAdo\ProjectLibraryApiInMultiTier\Tools.Connections\obj\Debug\net6.0\Tools.Connections.AssemblyInfoInputs.cache
+C:\Users\STG1257\Desktop\ProjectLibraryInAdo\ProjectLibraryApiInMultiTier\Tools.Connections\obj\Debug\net6.0\Tools.Connections.AssemblyInfo.cs
+C:\Users\STG1257\Desktop\ProjectLibraryInAdo\ProjectLibraryApiInMultiTier\Tools.Connections\obj\Debug\net6.0\Tools.Connections.csproj.CoreCompileInputs.cache
+C:\Users\STG1257\Desktop\ProjectLibraryInAdo\ProjectLibraryApiInMultiTier\Tools.Connections\obj\Debug\net6.0\Tools.Connections.dll
+C:\Users\STG1257\Desktop\ProjectLibraryInAdo\ProjectLibraryApiInMultiTier\Tools.Connections\obj\Debug\net6.0\refint\Tools.Connections.dll
+C:\Users\STG1257\Desktop\ProjectLibraryInAdo\ProjectLibraryApiInMultiTier\Tools.Connections\obj\Debug\net6.0\Tools.Connections.pdb
+C:\Users\STG1257\Desktop\ProjectLibraryInAdo\ProjectLibraryApiInMultiTier\Tools.Connections\obj\Debug\net6.0\ref\Tools.Connections.dll
