@@ -10,17 +10,18 @@ using Tools.Connections;
 
 namespace ProjectLibraryApiInMultiTier.DAL.Repositories
 {
-    public class BorrowingBookCustomRepository : IBorrowingBookCustom
+    public class BorrowingBookCustomRepository:RepositoryBase<int, BorrowingBookCustomEntity>, IBorrowingBookCustom
     {
         protected Connection _Connection { get; set; }
 
         public BorrowingBookCustomRepository(Connection connection)
+       : base(connection, "Book", "Id")
         {
             _Connection = connection;
          
         }
 
-        public override IEnumerable<BorrowingBookCustomEntity> GetById(int id)
+        public IEnumerable<BorrowingBookCustomEntity> GetByCustumerId(int id)
         {
             Command cmd = new Command($"SelectAllInfoBorrowingByUserId", true);
             cmd.AddParameter("Id", id);
@@ -28,40 +29,29 @@ namespace ProjectLibraryApiInMultiTier.DAL.Repositories
             return _Connection.ExecuteReader(cmd, MapRecordToEntity);
         }
 
-        private BorrowingBookCustomEntity MapRecordToEntity(IDataRecord arg)
+        protected override BorrowingBookCustomEntity MapRecordToEntity(IDataRecord record)
         {
             // A compléter
-            return new AuthorEntity()
+            return new BorrowingBookCustomEntity()
             {
-                Id = (int)record[TableId],
-                Name = (string)record["Name"],
-                Firstname = (string)record["Firstname"],
-                Birthdate = (DateTime)record["Birthdate"],
+                BorrowingId = (int)record["BorrowingId"],
+                DateBack = (DateTime)record["DateBack"],
+                DateBegin = (DateTime)record["DateBegin"],
+                Additional = (bool)record["Additional"],
+                CopyId = (int)record["CopyId"],
+                Title = (string)record["Title"],
+                Resume= (string)record["Resume"],
+                PublicationDate = (DateTime)record["PublicationDate"]
 
             };
         }
 
-        public int Insert(BorrowingBookCustomEntity entity)
+        public override int Insert(BorrowingBookCustomEntity entity)
         {
             throw new NotImplementedException();
         }
 
-        BorrowingBookCustomEntity IRepository<int, BorrowingBookCustomEntity>.GetById(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<BorrowingBookCustomEntity> GetAll()
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool Update(int id, BorrowingBookCustomEntity entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool Delete(int id)
+        public override bool Update(int id, BorrowingBookCustomEntity entity)
         {
             throw new NotImplementedException();
         }

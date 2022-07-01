@@ -9,6 +9,6 @@ namespace ProjectLibraryApiInMultiTier.DAL.Interfaces
 {
     public interface IBorrowingBookCustom:IRepository<int, BorrowingBookCustomEntity>
     {
-       
+        IEnumerable<BorrowingBookCustomEntity> GetByCustumerId(int id);
     }
 }

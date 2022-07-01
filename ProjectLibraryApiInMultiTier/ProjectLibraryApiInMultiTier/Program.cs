@@ -39,12 +39,14 @@ builder.Services.AddTransient<IGenreRepository, GenreRepository>();
 builder.Services.AddTransient<IBookRepository, BookRepository>();
 builder.Services.AddTransient<IAuthorRepository, AuthorRepository>();
 builder.Services.AddTransient<IUserRepository, UserRepository>();
+builder.Services.AddTransient<IBorrowingBookCustom, BorrowingBookCustomRepository>();
 
 // - BLL 
 builder.Services.AddTransient<GenreService>();
 builder.Services.AddTransient<BookService>();
 builder.Services.AddTransient<AuthorService>();
 builder.Services.AddTransient<UserService>();
+builder.Services.AddTransient<BorrowingBookCustomService>();
 
 var app = builder.Build();
 

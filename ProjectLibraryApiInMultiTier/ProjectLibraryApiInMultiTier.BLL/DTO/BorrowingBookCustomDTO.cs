@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjectLibraryApiInMultiTier.DAL.Entities
+namespace ProjectLibraryApiInMultiTier.BLL.DTO
 {
-    public class BorrowingBookCustomEntity
+    public class BorrowingBookCustomDTO
     {
         public int BorrowingId { get; set; }
         public DateTime DateBack { get; set; }
@@ -16,6 +16,5 @@ namespace ProjectLibraryApiInMultiTier.DAL.Entities
         public string Title { get; set; }
         public string Resume { get; set; }
         public DateTime PublicationDate { get; set; }
-
     }
 }
