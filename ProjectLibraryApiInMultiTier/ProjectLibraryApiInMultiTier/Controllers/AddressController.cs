@@ -21,5 +21,14 @@ namespace ProjectLibraryApiInMultiTier.Controllers
 
             return Ok(_repo.GetAll().ToArray());
         }
+
+        [HttpGet]
+        [Route("{id}")]
+        public IActionResult Get(int id)
+        {
+            //renvoie une 200 + json
+
+            return Ok(_repo.GetById(id));
+        }
     }
 }

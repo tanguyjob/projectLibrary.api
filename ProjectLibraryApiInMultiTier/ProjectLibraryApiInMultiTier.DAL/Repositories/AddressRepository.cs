@@ -39,15 +39,14 @@ namespace ProjectLibraryApiInMultiTier.DAL.Repositories
         public override bool Update(int id, AddressEntity entity)
         {
             Command cmd = new Command($"UPDATE {TableName}" +
-               " SET Name = @Name," +
-               "     Firstname = @Firstname," +
-               "     Birthdate = @Birthdate" +
+               " SET City = @City," +
+               "     PostCode = @PostCode," +
+               "     Street = @Street" +
+               "     Number = @Number" +
+               "     Box = @Box" +
                $" WHERE {TableId} = @Id");
 
-
             cmd.AddParameter("Id", entity.Id);
-
-
             return _Connection.ExecuteNonQuery(cmd) == 1;
         }
 
