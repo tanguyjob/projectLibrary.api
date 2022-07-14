@@ -15,6 +15,16 @@ namespace ProjectLibraryApiInMultiTier.DAL.Repositories
         public BookRepository(Connection connection)
            : base(connection, "Book", "Id")
         { }
+
+        public IEnumerable<BookEntity> GetBookByAuthorId(int id)
+        {
+            Command cmd = new Command($"Select b.Id,b.Title, b.[Resume],b.PublicationDate, b.LanguageId" + $"from Book b join BookAuthor ba" + $"on b.Id = ba.Id" + $"join Author a" + $"on a.Id= ba.AuthorId" + $"where ba.AuthorId=@id)");
+
+            cmd.AddParameter("id", id);
+
+            return _Connection.ExecuteReader(cmd, MapRecordToEntity);
+
+        }
         public override int Insert(BookEntity entity)
         {
             Command cmd = new Command($"INSERT INTO {TableName} (Title,Resume, PublicationDate, LanguageId)" +
@@ -30,6 +40,9 @@ namespace ProjectLibraryApiInMultiTier.DAL.Repositories
 
             return rep ?? -1;
         }
+
+
+
 
         public override bool Update(int id, BookEntity entity)
         {
