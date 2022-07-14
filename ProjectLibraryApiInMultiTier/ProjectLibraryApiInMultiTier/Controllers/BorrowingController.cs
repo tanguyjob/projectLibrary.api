@@ -6,23 +6,29 @@ namespace ProjectLibraryApiInMultiTier.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class BorrowingBookCustomController : ControllerBase
+    public class BorrowingController : ControllerBase
     {
-        BorrowingBookCustomService _repo;
+        BorrowingService _repo;
 
-        public BorrowingBookCustomController(BorrowingBookCustomService repo)
+        public BorrowingController(BorrowingService repo)
         {
             this._repo = repo;
         }
-     
 
+        [HttpGet]
+        public IActionResult Get()
+        {
+            //renvoie une 200 + json
+
+            return Ok(_repo.GetAll().ToArray());
+        }
         [HttpGet]
         [Route("{id}")]
         public IActionResult Get(int id)
         {
             //renvoie une 200 + json
 
-            return Ok(_repo.GetByCustomerId(id).ToArray());
+            return Ok(_repo.GetById(id));
         }
     }
 }

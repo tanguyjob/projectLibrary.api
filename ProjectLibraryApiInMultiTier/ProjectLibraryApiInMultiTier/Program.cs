@@ -40,8 +40,8 @@ builder.Services.AddTransient<IBookRepository, BookRepository>();
 builder.Services.AddTransient<IAuthorRepository, AuthorRepository>();
 builder.Services.AddTransient<IUserRepository, UserRepository>();
 builder.Services.AddTransient<IBorrowingBookCustom, BorrowingBookCustomRepository>();
-//builder.Services.AddTransient<IBookAuthorCustomRepository, BookAuthorCustomRepository>();
-
+builder.Services.AddTransient<IBookAuthorCustomRepository, BookAuthorCustomRepository>();
+//builder.Services.AddTransient<IBorrowingRepository, BorrowingRepository>();
 builder.Services.AddTransient<IAddessRepository, AddressRepository>();
 
 // - BLL 
@@ -50,8 +50,9 @@ builder.Services.AddTransient<BookService>();
 builder.Services.AddTransient<AuthorService>();
 builder.Services.AddTransient<UserService>();
 builder.Services.AddTransient<BorrowingBookCustomService>();
-//builder.Services.AddTransient<BookAuthorCustomService>();
+builder.Services.AddTransient<BookAuthorCustomService>();
 builder.Services.AddTransient<AddressService>();
+//builder.Services.AddTransient<BorrowingService>();
 
 var app = builder.Build();
 
