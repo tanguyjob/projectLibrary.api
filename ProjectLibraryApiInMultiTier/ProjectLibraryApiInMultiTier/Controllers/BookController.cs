@@ -26,6 +26,7 @@ namespace ProjectLibraryApiInMultiTier.Controllers
             return Ok(_repo.GetAll().ToArray());
         }
 
+
         [HttpGet]
         [Route("{id}")]
         public IActionResult Get(int id)
@@ -33,6 +34,15 @@ namespace ProjectLibraryApiInMultiTier.Controllers
             //renvoie une 200 + json
 
             return Ok(_repo.GetById(id));
+        }
+
+        [HttpGet]
+        [Route("GetBookByAuthorId/{id}")]
+        public IActionResult GetBookByAuthorId(int id)
+        {
+            //renvoie une 200 + json
+
+            return Ok(_repo.GetBookByAuthorId(id));
         }
 
         [HttpPost]

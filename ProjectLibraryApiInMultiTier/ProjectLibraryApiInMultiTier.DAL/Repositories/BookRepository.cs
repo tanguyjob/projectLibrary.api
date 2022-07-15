@@ -18,9 +18,9 @@ namespace ProjectLibraryApiInMultiTier.DAL.Repositories
 
         public IEnumerable<BookEntity> GetBookByAuthorId(int id)
         {
-            Command cmd = new Command($"Select b.Id,b.Title, b.[Resume],b.PublicationDate, b.LanguageId" + $"from Book b join BookAuthor ba" + $"on b.Id = ba.Id" + $"join Author a" + $"on a.Id= ba.AuthorId" + $"where ba.AuthorId=@id)");
+            Command cmd = new Command($"Select b.Id,b.Title, b.[Resume],b.PublicationDate, b.LanguageId from Book b join BookAuthor ba on b.Id = ba.Id join Author a on a.Id= ba.AuthorId where ba.AuthorId=@id");
 
-            cmd.AddParameter("id", id);
+            cmd.AddParameter("id",id);
 
             return _Connection.ExecuteReader(cmd, MapRecordToEntity);
 

@@ -9,6 +9,6 @@ namespace ProjectLibraryApiInMultiTier.DAL.Interfaces
 {
     public interface IBookRepository : IRepository<int, BookEntity>
     {
-       
+        public IEnumerable<BookEntity> GetBookByAuthorId(int id);
     }
 }

@@ -1,5 +1,6 @@
 ﻿using ProjectLibraryApiInMultiTier.BLL.DTO;
 using ProjectLibraryApiInMultiTier.BLL.Mappers;
+using ProjectLibraryApiInMultiTier.DAL.Entities;
 using ProjectLibraryApiInMultiTier.DAL.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -24,10 +25,17 @@ namespace ProjectLibraryApiInMultiTier.BLL.Services
             return bookRepository.GetById(id)?.ToDTO();
         }
 
+        public IEnumerable<BookEntity> GetBookByAuthorId(int id)
+        {
+            return bookRepository.GetBookByAuthorId(id);
+        }
+
         public IEnumerable<BookDTO> GetAll()
         {
             return bookRepository.GetAll().Select(b => b.ToDTO());
         }
+
+
 
         public bool Insert(BookDTO H)
         {
