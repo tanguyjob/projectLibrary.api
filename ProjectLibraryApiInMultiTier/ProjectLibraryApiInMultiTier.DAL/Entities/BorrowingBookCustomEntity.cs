@@ -9,8 +9,8 @@ namespace ProjectLibraryApiInMultiTier.DAL.Entities
     public class BorrowingBookCustomEntity
     {
         public int BorrowingId { get; set; }
-        public DateTime DateBack { get; set; }
         public DateTime DateBegin { get; set; }
+        public DateTime DateBack { get; set; }
         public bool Additional { get; set; }
         public int CopyId { get; set; }
         public string Title { get; set; }

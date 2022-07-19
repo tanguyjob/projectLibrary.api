@@ -15,7 +15,15 @@ namespace ProjectLibraryApiInMultiTier.DAL.Repositories
         public BorrowingRepository(Connection connection) : base(connection, "Borrowing", "Id")
         {
         }
+        public IEnumerable<BorrowingEntity> GetBorrowingByUserId(int id)
+        {
+            Command cmd = new Command($"Select b.Id,b.Title, b.[Resume],b.PublicationDate, b.LanguageId from Book b join BookAuthor ba on b.Id = ba.Id join Author a on a.Id= ba.AuthorId where ba.AuthorId=@id");
 
+            cmd.AddParameter("id", id);
+
+            return _Connection.ExecuteReader(cmd, MapRecordToEntity);
+
+        }
         public override int Insert(BorrowingEntity entity)
         {
             Command cmd = new Command($"INSERT INTO {TableName} (DateBegin,DateBack,Additional,FK_Borrowing_Copy,FK_Borrowing_User)" +

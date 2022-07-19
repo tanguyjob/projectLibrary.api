@@ -14,7 +14,7 @@ namespace ProjectLibraryApiInMultiTier.BLL.Services
     {
         private IBorrowingRepository borrowingRepository;
 
-        public BorrowingService (IBorrowingService borrowingService)
+        public BorrowingService (IBorrowingRepository borrowingRepository)
         {
             this.borrowingRepository = borrowingRepository;
         }

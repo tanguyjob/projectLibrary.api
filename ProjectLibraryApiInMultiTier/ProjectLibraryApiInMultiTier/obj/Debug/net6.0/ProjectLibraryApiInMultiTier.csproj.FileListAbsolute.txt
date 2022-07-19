@@ -131,6 +131,7 @@ C:\Users\STG1257\Desktop\projectLibrary.api\ProjectLibraryApiInMultiTier\Project
 C:\Users\STG1257\Desktop\projectLibrary.api\ProjectLibraryApiInMultiTier\ProjectLibraryApiInMultiTier\obj\Debug\net6.0\ProjectLibraryApiInMultiTier.AssemblyInfoInputs.cache
 C:\Users\STG1257\Desktop\projectLibrary.api\ProjectLibraryApiInMultiTier\ProjectLibraryApiInMultiTier\obj\Debug\net6.0\ProjectLibraryApiInMultiTier.AssemblyInfo.cs
 C:\Users\STG1257\Desktop\projectLibrary.api\ProjectLibraryApiInMultiTier\ProjectLibraryApiInMultiTier\obj\Debug\net6.0\ProjectLibraryApiInMultiTier.csproj.CoreCompileInputs.cache
+C:\Users\STG1257\Desktop\projectLibrary.api\ProjectLibraryApiInMultiTier\ProjectLibraryApiInMultiTier\obj\Debug\net6.0\ProjectLibraryApiInMultiTier.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\STG1257\Desktop\projectLibrary.api\ProjectLibraryApiInMultiTier\ProjectLibraryApiInMultiTier\obj\Debug\net6.0\ProjectLibraryApiInMultiTier.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\STG1257\Desktop\projectLibrary.api\ProjectLibraryApiInMultiTier\ProjectLibraryApiInMultiTier\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\STG1257\Desktop\projectLibrary.api\ProjectLibraryApiInMultiTier\ProjectLibraryApiInMultiTier\obj\Debug\net6.0\staticwebassets.development.json
@@ -141,4 +142,3 @@ C:\Users\STG1257\Desktop\projectLibrary.api\ProjectLibraryApiInMultiTier\Project
 C:\Users\STG1257\Desktop\projectLibrary.api\ProjectLibraryApiInMultiTier\ProjectLibraryApiInMultiTier\obj\Debug\net6.0\ProjectLibraryApiInMultiTier.pdb
 C:\Users\STG1257\Desktop\projectLibrary.api\ProjectLibraryApiInMultiTier\ProjectLibraryApiInMultiTier\obj\Debug\net6.0\ProjectLibraryApiInMultiTier.genruntimeconfig.cache
 C:\Users\STG1257\Desktop\projectLibrary.api\ProjectLibraryApiInMultiTier\ProjectLibraryApiInMultiTier\obj\Debug\net6.0\ref\ProjectLibraryApiInMultiTier.dll
-C:\Users\STG1257\Desktop\projectLibrary.api\ProjectLibraryApiInMultiTier\ProjectLibraryApiInMultiTier\obj\Debug\net6.0\ProjectLibraryApiInMultiTier.MvcApplicationPartsAssemblyInfo.cs
