@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ProjectLibraryApiInMultiTier",
+    "\\ProjectLibraryApiInMultiTier.DAL",
     "\\Tools.Connections"
   ],
-  "SelectedNode": "\\ProjectLibraryApiInMultiTier.sln",
   "PreviewInSolutionExplorer": false
 }

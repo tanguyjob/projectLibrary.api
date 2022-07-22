@@ -43,6 +43,7 @@ builder.Services.AddTransient<IBorrowingBookCustom, BorrowingBookCustomRepositor
 builder.Services.AddTransient<IBookAuthorCustomRepository, BookAuthorCustomRepository>();
 builder.Services.AddTransient<IBorrowingRepository, BorrowingRepository>();
 builder.Services.AddTransient<IAddessRepository, AddressRepository>();
+builder.Services.AddTransient<ILanguageRepositoty, LanguageRepository>();
 
 // - BLL 
 builder.Services.AddTransient<GenreService>();
@@ -53,6 +54,7 @@ builder.Services.AddTransient<BorrowingBookCustomService>();
 builder.Services.AddTransient<BookAuthorCustomService>();
 builder.Services.AddTransient<AddressService>();
 builder.Services.AddTransient<BorrowingService>();
+builder.Services.AddTransient<LanguageService>();
 
 var app = builder.Build();
 
