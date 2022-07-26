@@ -33,17 +33,17 @@ namespace ProjectLibraryApiInMultiTier.Controllers
             return Ok(_repo.GetById(id));
         }
 
-        [HttpPost]
-        public IActionResult AddAuthor(AuthorApiModel author)
-        {
-            if (_repo.Insert(author.ToDto()))
+            [HttpPost]
+            public IActionResult AddAuthor(AuthorApiModel author)
             {
-                return Ok(author);
+                if (_repo.Insert(author.ToDto()))
+                {
+                    return Ok(author);
+                }
+                else
+                {
+                    return new BadRequestObjectResult(author);
+                }
             }
-            else
-            {
-                return new BadRequestObjectResult(author);
-            }
-        }
     }
 }
